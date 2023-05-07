@@ -134,8 +134,6 @@ namespace seleniumTest
             Convert.ToInt32(val);
             int m = (p / val);
 
-            Console.WriteLine(" ============================================ ");
-            Console.WriteLine(" ============================================ ");
             Redmessage(" MINIMUM PRICE= RS " + (String.Format("{0:n0}", sortedProductNames[0])));
             greenMessage(" MAXIMUM PRICE= RS " + (String.Format("{0:n0}", sortedProductNames[sortedProductNames.Count - 1])));
             cyanmessage(" AVERAGE KM: " + (String.Format("{0:n0}", m)));
